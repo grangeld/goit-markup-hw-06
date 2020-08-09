@@ -246,6 +246,7 @@ ul {
   line-height: 1.71;
   color: var(--footer-email-telefon);
 }
+
 /****************** portfolio.html ******************************/
 /*кнопки*/
 .work-button {
@@ -633,6 +634,7 @@ ul {
 
 .footer-container-connect {
   padding-top: 12px;
+  margin-right: 94px;
 }
 
 .footer-join-icon {
@@ -669,6 +671,51 @@ ul {
   height: 20px;
   fill: #ffffff;
 }
+
+/*форма в футере*/
+.footer-container-form {
+  padding-top: 12px;
+}
+.footer-email {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+  outline-color: rgba(255, 255, 255, 0.3);
+  margin-right: 12px;
+}
+.footer-email::placeholder {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-button-icon {
+  margin-left: 10px;
+}
+
+.footer-form-send-button {
+  width: 200px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
 /********************  portfolio.html  ****************************/
 .section-content-portfolio .container {
   /* display: flex; */
