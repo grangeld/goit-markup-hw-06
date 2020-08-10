@@ -1004,7 +1004,7 @@ ul {
   display: inline-flex;
   width: 16px;
   height: 15px;
-  border: solid 2px #212121;
+  border: solid 1px #212121;
   border-radius: 2px;
   margin-right: 8px;
 }
