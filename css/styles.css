@@ -816,6 +816,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   border: none;
+  cursor: pointer;
 }
 .modal-button-close {
   position: absolute;
@@ -829,6 +830,12 @@ ul {
   border-radius: 50%;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.modal-button-close:focus .modal-icon-button-close,
+.modal-button-close:hover .modal-icon-button-close {
+  fill: #2196f3;
 }
 
 .backdrop {
@@ -958,6 +965,7 @@ ul {
   padding-left: 16px;
   padding-top: 12px;
   padding-right: 16px;
+  cursor: pointer;
 }
 
 .modal-form-textarea-label {
